@@ -1,0 +1,14 @@
+<!doctype html>
+<script src="../mithril.js"></script>
+<body></body>
+<!-- in mithril, minimum need is view and m.mount-->
+<script>
+	ex1 = {}
+	ex1.view = function(ctrl){
+		return m("#ex1","Hello ",
+			m("input",{placeholder:"Mithril"}),
+			" ",
+			m("button", "world"));
+	}
+	m.mount(document.body, ex1)
+</script>

@@ -1,0 +1,841 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fil",
+				"FileServer	http.Handler ƒ"
+			],
+			[
+				"Pri",
+				"Printf	n int, err error ƒ"
+			],
+			[
+				"pri",
+				"println	 ƒ"
+			],
+			[
+				"New",
+				"NewEncodedConn	*nats.EncodedConn, error ƒ"
+			],
+			[
+				"En",
+				"EncodedConn	struct ʈ"
+			],
+			[
+				"ife",
+				"ifer	if err!=nil {...} ʂ"
+			],
+			[
+				"ifer",
+				"ifer	if err!=nil {...} ʂ"
+			],
+			[
+				"Pr",
+				"println	 ƒ"
+			],
+			[
+				"Prin",
+				"Printf	 ƒ"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "ex1/index.htm",
+			"settings":
+			{
+				"buffer_size": 310,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/sst/.config/sublime-text-3/Packages/User/mithril.sublime-snippet",
+			"settings":
+			{
+				"buffer_size": 360,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"file": "ex2/index.htm",
+			"file_size": 0,
+			"file_write_time": 130776001496211283,
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 185.0,
+		"last_filter": "Snippet: mi",
+		"selected_items":
+		[
+			[
+				"Snippet: mi",
+				"Snippet: mithril"
+			],
+			[
+				"a",
+				"Project: Add Folder"
+			],
+			[
+				"bracke",
+				"BracketHighlighter: Wrap Selections with Brackets"
+			],
+			[
+				"brac",
+				"Selection: Expand to Brackets"
+			],
+			[
+				"sstjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ad",
+				"Project: Add Folder"
+			],
+			[
+				"men",
+				"View: Toggle Menu"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"git push",
+				"git: push"
+			],
+			[
+				"visibi",
+				"BracketHighlighter: Toggle High Visibility Mode"
+			],
+			[
+				"defin",
+				"GoSublime: Goto Definition"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"sstg",
+				"Set Syntax: Go"
+			],
+			[
+				"sysn cl",
+				"Set Syntax: Clojure"
+			],
+			[
+				"",
+				"BracketHighlighter: Toggle High Visibility Mode"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"lys",
+				"Layout: Single"
+			],
+			[
+				"mg2",
+				"Group: Move to Group 2"
+			],
+			[
+				"move",
+				"Group: Move to Group 1"
+			],
+			[
+				"layo",
+				"Layout: 2 Rows"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"gi h",
+				"GitSavvy: help"
+			],
+			[
+				"git br",
+				"git: branch"
+			],
+			[
+				"open rem",
+				"github: open file on remote"
+			],
+			[
+				"push",
+				"git: push"
+			],
+			[
+				"git pu",
+				"git: push to existing branch"
+			],
+			[
+				"githu",
+				"github: open file on remote"
+			],
+			[
+				"github",
+				"github: set remote for integration"
+			],
+			[
+				"brackv",
+				"BracketHighlighter: Toggle High Visibility Mode"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"origami",
+				"Origami: Move File to Pane on the Right"
+			],
+			[
+				"orig",
+				"Origami: Zoom Current Pane"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ad fo",
+				"Project: Add Folder"
+			],
+			[
+				"sidb",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"syg",
+				"Set Syntax: Go"
+			],
+			[
+				"git inl",
+				"git: diff current file inline"
+			],
+			[
+				"gi s",
+				"git: status"
+			],
+			[
+				"gi in",
+				"git: init"
+			],
+			[
+				"gis",
+				"git: status"
+			],
+			[
+				"gdcf",
+				"git: diff current file"
+			],
+			[
+				"gs",
+				"GitSavvy: help"
+			],
+			[
+				"gsvh",
+				"GitSavvy: help"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"fcm",
+				"Fold Comments"
+			],
+			[
+				"fc",
+				"Fold Comments"
+			],
+			[
+				"fol",
+				"Fold Comments"
+			]
+		],
+		"width": 567.0
+	},
+	"console":
+	{
+		"height": 155.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/sst/www/HelloMithril",
+		"/home/sst/www/HelloMithril/ex1",
+		"/home/sst/www/introToAngular/examples/snapshots",
+		"/home/sst/www/introToAngular/examples/snapshots/snapshot01"
+	],
+	"file_history":
+	[
+		"/home/sst/www/index.html",
+		"/ect/nginx",
+		"/home/sst/go/src/github.com/me7/temp/serv.go",
+		"/home/sst/go/src/github.com/me7/temp/index.html",
+		"/home/sst/go/src/github.com/me7/temp/mithril.js",
+		"/home/sst/go/src/github.com/apcera/nats/nats.go",
+		"/home/sst/go/src/github.com/apcera/nats/bench_test.go",
+		"/home/sst/go/src/github.com/me7/temp/contact.html",
+		"/home/sst/go/src/github.com/me7/temp/mithril.min.js.map",
+		"/home/sst/go/src/github.com/apcera/gnatsd/server/client.go",
+		"/home/sst/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/sst/go/src/github.com/me7/shopfloor/cmd/pub/temp.go",
+		"/home/sst/go/src/github.com/apcera/gnatsd/test/client_cluster_test.go",
+		"/home/sst/go/src/github.com/apcera/gnatsd/server/server.go",
+		"/home/sst/go/src/github.com/me7/shopfloor/cmd/dashboard/dashboard.go",
+		"/home/sst/go/src/github.com/me7/shopfloor/cmd/sub/sub.go",
+		"/home/sst/go/src/github.com/me7/shopfloor/cmd/sub/temp.go",
+		"/home/sst/go/src/github.com/me7/shopfloor/cmd/pub/pub.go",
+		"/home/sst/go/src/github.com/apcera/nats/examples/nats-sub.go",
+		"/home/sst/go/src/github.com/apcera/nats/examples/nats-pub.go",
+		"/home/sst/go/src/github.com/apcera/gnatsd/server/monitor.go",
+		"/home/sst/go/src/github.com/apcera/gnatsd/test/routes_test.go",
+		"/home/sst/go/src/github.com/apcera/gnatsd/test/proto_test.go",
+		"/home/sst/go/src/github.com/apcera/gnatsd/test/gosrv_test.go",
+		"/home/sst/go/src/github.com/apcera/gnatsd/test/cluster_test.go",
+		"/home/sst/Downloads/signature.asc",
+		"/home/sst/.config/sublime-text-3/Packages/User/GitSavvy.sublime-settings",
+		"/home/sst/go/src/github.com/apcera/nats/nats_test.go",
+		"/home/sst/go/src/github.com/apcera/nats/README.md",
+		"/home/sst/go/src/github.com/apcera/nats/conn_test.go",
+		"/home/sst/go/src/github.com/apcera/gnatsd/logger/syslog_test.go",
+		"/home/sst/go/src/github.com/apcera/gnatsd/test/auth_test.go",
+		"/home/sst/go/src/github.com/apcera/gnatsd/test/bench_test.go",
+		"/home/sst/.config/sublime-text-3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/home/sst/go/src/op4/main.go",
+		"/home/sst/.config/sublime-text-3/Packages/GitSavvy/GitSavvy.sublime-settings",
+		"/home/sst/.config/sublime-text-3/Packages/User/GoSublime.sublime-settings",
+		"/home/sst/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings",
+		"/home/sst/.config/sublime-text-3/Packages/Fold Comments/foldcomments.sublime-settings",
+		"/home/sst/.config/sublime-text-3/Packages/Fold Comments/Default (Linux).sublime-keymap",
+		"/home/sst/go/src/op4/equipment_test.go",
+		"/home/sst/.config/sublime-text-3/Packages/User/bh_core.sublime-settings",
+		"/home/sst/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/sst/go/src/op4/equipment.go",
+		"/home/sst/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/usr/src/linux-headers-3.13.0-37-generic/include/config/libcrc32c.h",
+		"/home/sst/.config/sublime-text-3/Packages/Origami/Origami.sublime-settings",
+		"/usr/share/applications/defaults.list",
+		"/home/sst/.config/sublime-text-3/Packages/BracketHighlighter/bh_core.sublime-settings",
+		"/home/sst/go/src/op4/unnamed",
+		"/home/sst/.config/sublime-text-3/Packages/GoSublime/GoSublime.sublime-settings",
+		"/home/sst/go/src/temp/untitled.go",
+		"/home/sst/go/src/temp/b_test.go",
+		"/home/sst/go/src/test.go",
+		"/home/sst/.config/sublime-text-3/Packages/GoSublime/CHANGELOG.md",
+		"/home/sst/.config/sublime-text-3/Packages/GoSublime/9o.md",
+		"/home/sst/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			"/home/sst/go/src/github.com/apcera",
+			"/home/sst/go/src/github.com/apcera/nats",
+			"/home/sst/go/src/github.com/apcera/gnatsd",
+			"/home/sst/go/src/github.com/apcera/gnatsd/test",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\\sm.*=\\sfunction\\(",
+			"\\sm.*=\\sfunction(",
+			"\\sm.*=\\sfunction",
+			"html",
+			"SLOW",
+			"DISCONNECTED",
+			"Status(",
+			"proto",
+			"ErrConnectionClosed",
+			"StartHTTPMonitoring",
+			"varz",
+			"Sleep",
+			"TestServerRestartReSliceIssue",
+			"ignor",
+			"draw_",
+			"line",
+			"extra",
+			"brackethighlighter",
+			"color",
+			"subl",
+			"sublime_text",
+			"gedit",
+			"error",
+			"snip",
+			"shift+space"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"gedit",
+			"subl",
+			"sublime_text"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "ex1/index.htm",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 310,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"git_savvy.file_path": "/home/sst/www/HelloMithril/ex1/ex1.htm",
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/sst/.config/sublime-text-3/Packages/User/mithril.sublime-snippet",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 360,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								340,
+								340
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"default_extension": "sublime-snippet",
+							"git_savvy.file_path": "/home/sst/.config/sublime-text-3/Packages/User/mithril.sublime-snippet",
+							"syntax": "Packages/XML/XML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "ex2/index.htm",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"git_savvy.file_path": "/home/sst/www/HelloMithril/ex2/index.htm",
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.9o:///home/sst/.config/sublime-text-3/Packages":
+	{
+		"height": 122.0
+	},
+	"output.9o:///home/sst/go/src/github.com/apcera/gnatsd/test":
+	{
+		"height": 327.0
+	},
+	"output.9o:///home/sst/go/src/github.com/apcera/nats":
+	{
+		"height": 128.0
+	},
+	"output.9o:///home/sst/go/src/op4":
+	{
+		"height": 134.0
+	},
+	"output.GitSavvy":
+	{
+		"height": 122.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "mithril.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/nats.io.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 136.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"nopayl",
+				"Benchmark___PubNo_Payload"
+			],
+			[
+				"matchsing",
+				"Benchmark____________MatchSingleToken"
+			],
+			[
+				"publishsp",
+				"BenchmarkPublishSpeedViaChan"
+			],
+			[
+				"testun",
+				"TestUnsubscribe"
+			],
+			[
+				"testuns",
+				"TestUnsubscribe"
+			],
+			[
+				"stopdi",
+				"TestServerStopDisconnectedCB"
+			]
+		],
+		"width": 400.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 199.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

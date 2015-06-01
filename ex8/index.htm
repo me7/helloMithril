@@ -1,0 +1,22 @@
+<!doctype html>
+<script src="../mithril.js"></script>
+<title>Example 8 - Binding using MVC style</title>
+<body></body>
+<!-- use m.prop to set dynamic variable -->
+<script>
+// use this variable as model to store data
+myText = m.prop("")
+
+app = {}
+app.view = function(ctrl){
+	return m("#app",[
+		m("input",{value:myText(), onkeyup:m.withAttr("value",myText)}),m("br"),
+		m("input",{value:myText(), onkeyup:m.withAttr("value",myText)}),m("br"),
+		m("input",{value:myText(), onkeyup:m.withAttr("value",myText)}),m("br"),
+		m("input",{value:myText(), onkeyup:m.withAttr("value",myText)}),m("br"),
+		m("input",{value:myText(), onkeyup:m.withAttr("value",myText)}),m("br")
+		])
+}
+
+m.mount(document.body, app)
+</script>

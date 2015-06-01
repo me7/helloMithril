@@ -1,0 +1,22 @@
+<!doctype html>
+<script src="../mithril.js"></script>
+<title>Example 9 - Two variable</title>
+<body>
+<div id="app">APP</div>
+</body>
+<script>
+Fname = m.prop("")
+Lname = m.prop("")
+
+app = {}
+app.view = function(ctrl){
+	return m("#app",[
+		m("input",{value:Fname(), onkeyup:m.withAttr("value",Fname)}),m("br"),
+		m("input",{value:Lname(), onkeyup:m.withAttr("value",Lname)}),m("br"),
+		m("label","Hello " + Fname() + " " + Lname())
+		])
+}
+
+m.mount(document.getElementById("app"), app)
+
+</script>

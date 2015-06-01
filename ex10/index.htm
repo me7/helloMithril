@@ -1,0 +1,30 @@
+<!doctype html>
+<script src="../mithril.js"></script>
+<title>Example 10 - Two component</title>
+<body>
+<div id="comp1">COMP1</div>
+<div id="comp2">COMP2</div>
+</body>
+<script>
+Fname = m.prop("")
+Lname = m.prop("")
+
+comp1 = {
+	view: function(ctrl){
+	return m("#app",[
+		m("input",{value:Fname(), onkeyup:m.withAttr("value",Fname)}),m("br"),
+		m("input",{value:Lname(), onkeyup:m.withAttr("value",Lname)}),m("br")
+		])
+	}
+}
+
+comp2 = {
+	view: function(ctrl){
+		return m("label","Hello " + Fname() + " " + Lname())
+	}
+}
+
+m.mount(document.getElementById("comp1"), comp1)
+m.mount(document.getElementById("comp2"), comp2)
+
+</script>

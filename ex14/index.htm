@@ -1,0 +1,18 @@
+<!doctype html>
+<script src="../mithril.js"></script>
+<script src="../iepolyfill.js"></script>
+<title>Example 14 - ng-repeat using map function</title>
+<body>
+<script>
+names = ["Steve","John","Derek"];
+app = {	
+	view: function(ctrl){
+		return names.map(function(n){
+			return m("div", n)
+		})
+	}
+}
+
+m.mount(document.body, app)
+</script>
+</body>

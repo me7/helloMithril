@@ -1,0 +1,17 @@
+<!doctype html>
+<script src="../mithril.js"></script>
+<title>Example 4 - One way data binding</title>
+<body></body>
+<!-- use m.prop to set dynamic variable -->
+<script>
+var myText = m.prop()
+
+ex = {}
+ex.view = function(ctrl){
+	return m("ex",[
+		m("input",{id:"textInput", onkeyup:m.withAttr("value",myText)}),
+		m("label"," Hello " + myText())]);
+}
+
+m.mount(document.body, ex)
+</script>

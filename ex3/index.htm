@@ -1,0 +1,23 @@
+<!doctype html>
+<script src="../mithril.js"></script>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Example 3</title>
+	</head>
+	<body></body>
+</html>
+<!-- use m.withAttr to bind element attribute -->
+<script>
+ex = {}
+ex.view = function(ctrl){
+	return m("input",{id:"textInput", onkeyup:m.withAttr("value",consoleLog)});
+}
+
+var consoleLog = function(c){
+	console.log(c);
+}
+
+
+m.mount(document.body, ex)
+</script>

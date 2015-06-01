@@ -1,0 +1,31 @@
+<!doctype html>
+<script src="../mithril.js"></script>
+<title>Example 15 - push value to model</title>
+<body>
+<script>
+
+People = {
+	list: function(){ return ["Steve","John","Derek"] }
+}
+
+App = {
+	controller: function(){
+		var names = People.list();
+		return {
+			names: names,
+			addName: function(){
+				names.push("new name")
+			}
+		}
+	},
+	view: function(ctrl){
+		return m("div",[
+			ctrl.names.map(function(n){ return m("div", n)}),
+			m("button", {onclick: ctrl.addName}, "Add Name")
+			])
+	}
+}
+
+m.mount(document.body, App)
+</script>
+</body>
